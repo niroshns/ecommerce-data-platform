@@ -646,7 +646,7 @@ I created a line chart of month wise total sales for the year 2020.
 ![Line Chart](/Images/4.4-linechart.PNG)
 
 I created a bar chart of Quarterly sales of mobile phones.
-![Pie Chart](/Images/4.4-barchart.PNG)
+![Bar Chart](/Images/4.5-barchart.PNG)
 
 I created a pie chart of category wise total sales. 
 ![Bar Chart](/Images/4.6-piechart.PNG)
