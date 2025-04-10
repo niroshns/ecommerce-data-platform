@@ -634,22 +634,22 @@ SELECT * FROM total_sales_per_country;
 
 
 After setting up the data warehouse, I moved on to design a reporting dashboard that reflected the key metrics of the business. I first loaded the data from “ecommerce.csv” into the data warehouse (IBM DB2) and imported it into a table named sales_history.
-![Data Import](/Images/4.1-dataimport.png)
+![Data Import](/Images/4.1-dataimport.PND)
 
 I listed the first 10 rows in the sales_history table to check the loaded data.
 ![First 10 Rows](/Images/4.2-first10rows.png)
 
 I then created the data source in IBM Cognos. I created a connection between sales_history table in IBM DB2 and Watson Studio with added Cognos Dashboard Embedded (CDE) service to use it as a data source.
-![Data Source](/Images/4.3-datasource.png)
+![Data Source](/Images/4.3-datasource.PNG)
 
 I created a line chart of month wise total sales for the year 2020.
-![Line Chart](/Images/4.4-linechart.png)
+![Line Chart](/Images/4.4-linechart.PNG)
 
 I created a bar chart of Quarterly sales of mobile phones.
-![Pie Chart](/Images/4.4-barchart.png)
+![Pie Chart](/Images/4.4-barchart.PNG)
 
 I created a pie chart of category wise total sales. 
-![Bar Chart](/Images/4.6-piechart.png)
+![Bar Chart](/Images/4.6-piechart.PNG)
 
 
 ## Python Scripts And Automation
