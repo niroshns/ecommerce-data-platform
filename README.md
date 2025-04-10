@@ -986,7 +986,7 @@ airflow dags trigger process_web_log
 > Created <DagRun process_web_log @ 2025-02-14T05:42:50+00:00: manual__2023-02-14T05:42:50+00:00, externally triggered: True>
 > ```
 
-Full log of the successful run can be viewed here: [process_web_log.log](/Data/dag_id=process_web_log_run_id=manual__2023-02-14T06_26_01.140266+00_00_task_id=extract_data_attempt=1.log)
+Full log of the successful run can be viewed here: [extract_data.log](/Data/extract_data.log)
 
 ## Apache Spark Big Data Analytics
 There is a set of data containing search terms on the e-Commerce platform. I downloaded the data and ran analytic queries on it using `pyspark` and `JupyterLab`. I used a pretrained sales forecasting model to predict the sales for 2023.
